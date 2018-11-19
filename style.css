@@ -17,6 +17,20 @@ h2{
     
 }
 
+
+#welcome{
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    color: #505050;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -206,6 +220,12 @@ h3{
     
 }
 
+
+.imageRight{
+    float:right;
+    display: block;
+}
+
 .embedPDF{
     margin-top: 30px;
 }
@@ -232,6 +252,7 @@ h3{
 .caption{
     text-align: center;
   padding: 10px 20px;
+    background-color: white;
 }
 
 img{
@@ -253,7 +274,7 @@ img{
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -341,6 +362,7 @@ img{
   position: relative;
   border-radius: 6px;
   color: #505050;
+    font-size: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -375,4 +397,14 @@ img{
   .right {
     left: 0%;
   }
+}
+
+
+
+
+
+h4{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
