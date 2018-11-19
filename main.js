@@ -7,6 +7,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     nav = true;
+    fixBlur();
 }
 
 
@@ -16,6 +17,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
     nav = false;
+    fixBlur();
 }
 
 
@@ -40,6 +42,11 @@ window.onscroll = function() {
   blurryContentViewport.scrollTop = window.pageYOffset;
 };
 
+
+function fixBlur(){
+      console.log(window.pageYOffset);
+  blurryContentViewport.scrollTop = window.pageYOffset;
+}
 
 
 function openInNewTab(url) {
